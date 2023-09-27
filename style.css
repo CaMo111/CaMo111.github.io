@@ -60,7 +60,8 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #2600ff;
+    color: #000000;
+    outline: #fff;
 }
 .content h1{
     font-size: 70px;
