@@ -23,7 +23,7 @@
 }
 /*This is setting up the logo info*/
 .logo{
-    width: 120px;
+    width: 200px;
     cursor: pointer;
 }
 /*This is setting up the navigation bar unordered list of list items (top right links*/
@@ -54,14 +54,15 @@
 .navbar ul li:hover::after{
     width: 100%;
 }
+/* This is the text in the middle of the home page*/
 .content{
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #000000;
-    outline: #fff;
+    color: #fff;
+    outline: #000000;
 }
 .content h1{
     font-size: 70px;
