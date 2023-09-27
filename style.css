@@ -16,21 +16,21 @@
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 0 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 /*This is setting up the logo info*/
 .logo{
-    width: 200px;
+    width: 400px;
     cursor: pointer;
 }
 /*This is setting up the navigation bar unordered list of list items (top right links*/
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     position: relative;
 }
 /*This is setting up the anchor text info for our list items*/
@@ -47,7 +47,7 @@
     background: #ffffff;
     position: absolute;
     left: 0;
-    bottom: -10;
+    bottom: -10px;
     transition: 0.5s;
 }
 /* */
@@ -62,7 +62,7 @@
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
-    outline: #000000;
+    outline-color: #000000;
 }
 .content h1{
     font-size: 70px;
