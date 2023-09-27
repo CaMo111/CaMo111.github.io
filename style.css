@@ -1,8 +1,10 @@
+/*This is setting up the css text info*/
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+/*This is setting up the background image on the home webpage*/
 .banner{
     width: 100%;
     height: 100vh;
@@ -10,25 +12,39 @@
     background-size: cover;
     background-position: center;
 }
+/*This is setting up the navbar or the navigation bar, ie logo and lines*/
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 25px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/*This is setting up the logo info*/
 .logo{
-    width: 500px;
+    width: 150px;
     cursor: pointer;
 }
+/*This is setting up the navigation bar unordered list of list items (top right links*/
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px
+    margin: 20 20px
 }
+/*This is setting up the anchor text info for our list items*/
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+}
+/* xyz */
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #ff0000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
