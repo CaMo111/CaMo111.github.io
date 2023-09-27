@@ -23,14 +23,14 @@
 }
 /*This is setting up the logo info*/
 .logo{
-    width: 150px;
+    width: 120px;
     cursor: pointer;
 }
 /*This is setting up the navigation bar unordered list of list items (top right links*/
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
     position: relative;
 }
 /*This is setting up the anchor text info for our list items*/
@@ -44,10 +44,10 @@
     content: '';
     height: 3px;
     width: 0%;
-    background: #000000;
+    background: #ffffff;
     position: absolute;
     left: 0;
-    bottom: -10;
+    bottom: -20;
     transition: 0.5s;
 }
 /* */
