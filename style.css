@@ -19,11 +19,16 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 500px;
     cursor: pointer;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 20px
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
 }
