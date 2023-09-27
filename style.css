@@ -16,7 +16,7 @@
 .navbar{
     width: 85%;
     margin: auto;
-    padding: 25px 0;
+    padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,8 @@
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 20 20px
+    margin: 0 20px;
+    position: relative;
 }
 /*This is setting up the anchor text info for our list items*/
 .navbar ul li a{
@@ -42,9 +43,14 @@
 .navbar ul li::after{
     content: '';
     height: 3px;
-    width: 100%;
-    background: #ff0000;
+    width: 0%;
+    background: #000000;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+/* */
+.navbar ul li:hover::after{
+    width: 100%;
 }
