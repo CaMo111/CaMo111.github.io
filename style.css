@@ -30,7 +30,7 @@
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
     position: relative;
 }
 /*This is setting up the anchor text info for our list items*/
@@ -47,7 +47,7 @@
     background: #ffffff;
     position: absolute;
     left: 0;
-    bottom: -20;
+    bottom: -10;
     transition: 0.5s;
 }
 /* */
@@ -60,7 +60,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: #2600ff;
 }
 .content h1{
     font-size: 70px;
