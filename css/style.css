@@ -89,10 +89,6 @@ a:focus {
   min-height: 100vh;
   text-align: center;
 
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: middle;
-      -ms-flex-direction: row;
-          flex-direction: row;
   text-align: center;
 }
 
@@ -292,12 +288,17 @@ a:focus {
   font-size: 14px;
 }
 
+p{
+  font-size: large;
+}
 .slider_section .detail-box .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -5px;
+  margin: 180 180px;
+  padding-left: 450px;
   margin-top: 25px;
+  font-size: 20px;
 }
 
 .slider_section .detail-box .btn-box a {
@@ -377,7 +378,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators {
-  position: unset;
+  padding-left: 150px;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -385,6 +386,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-content: center;
 }
 
 .slider_section .carousel-indicators li {
@@ -396,8 +398,8 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li.active {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   background-color: #00bbf0;
 }
 
@@ -979,3 +981,4 @@ form button{
   margin: 20px auto 0;
   border-radius: 30px;
 }
+
