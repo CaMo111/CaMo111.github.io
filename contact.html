@@ -85,24 +85,7 @@
 
         </nav>
       </div>
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
-      <script>
-        function sendEmail(){
-          Email.send({
-    Host : "smtp.gmail.com",
-    Username : "nathanculshaw2@gmail.com",
-    Password : "!Pad-dy18$",
-    To : 'nathanculshaw2@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "NEW INQUIRY FROM WEBSITE",
-    Body : "name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email") + "<br> Body: " + document.getElementById("message")
-}).then(
-  message => alert("Contact form sent. Please wait while I get back to you. :)")
-);
-        }
-      </script>
-    <!-- end header section -->
-
+      
 
 
 
