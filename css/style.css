@@ -972,4 +972,7 @@ form button{
   border: 0;
   outline: none;
   cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
 }
