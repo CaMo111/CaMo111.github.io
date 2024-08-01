@@ -74,8 +74,9 @@
 
 
         <div class="containerz">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <h3>Get in Touch</h3>
+                <input type="hidden" name="access_key" value="ea3564e1-e047-41b4-9e3d-fa6f290616cd">
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email Adress" required>
                 <textarea id="message" rows="4" placeholder="Leave a message with your inquiry"></textarea>
